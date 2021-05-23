@@ -1,0 +1,128 @@
+/*colors:
+353535 black/jet
+3C6E71 ming/green
+FFFFFF white
+D9D9D9 grey/gainsboro
+284B63 dark blue/indigo dye
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Open+Sans:wght@300&display=swap');
+
+body{
+    background-color: gainsboro;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 0px;
+    text-align: center;
+}
+
+#profileImage{
+    border-radius: 100%;
+    border: 3px white solid;
+    position: relative;
+    top: 150px;
+}
+
+h1{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 100px;
+    position: relative;
+    top: 100px
+}
+
+.section1 {
+    background-color: #353535;
+    color: white;
+    padding: 50px;
+    padding-top: 200px;
+    border-top: 3px white solid;
+}
+.section2 {
+    background-color: #284B63;
+    color: white;
+    padding: 50px;
+}
+.section3 {
+    background-color: #3C6E71;
+    color: white;
+    padding: 50px;
+    
+}
+.section4 {
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+
+h1, section, p, h2, h3, ul {
+    margin: 0;
+}
+ .container {
+    width: 900px;
+    margin: auto;
+    border-bottom: 3px white solid;
+    border-bottom-style: dotted;
+    padding-bottom: 25px;
+ }
+
+ ul{
+     list-style-type: none;
+     padding-left: 0px;
+
+ }
+
+
+ h2{
+     padding-bottom: 15px;
+ }
+
+ .adress{
+     padding-top: 15px;
+ }
+ h3{
+     padding-bottom: 15px;
+ }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:100%;
+    margin-top: 30px;
+  }
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;   
+  }
+nav ul li {
+   
+}
+
+
+   
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
