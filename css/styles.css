@@ -8,8 +8,12 @@ D9D9D9 grey/gainsboro
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Open+Sans:wght@300&display=swap');
 
+html{
+    scroll-behavior: smooth
+}
+
 body{
-    background-color: gainsboro;
+    background-color: grey;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
@@ -21,38 +25,39 @@ header {
 
 #profileImage{
     border-radius: 100%;
-    border: 3px white solid;
+    border: 6px white solid;
     position: relative;
-    top: 150px;
+    top: 130px;
 }
 
 h1{
     font-family: 'La Belle Aurore', cursive;
     font-size: 100px;
     position: relative;
-    top: 100px
+    top: 100px;
+    color: darkblue;
 }
 
 .section1 {
-    background-color: #353535;
+    background-color: #3a5d75;
     color: white;
     padding: 50px;
     padding-top: 200px;
-    border-top: 3px white solid;
+    border-top: 6px white solid;
 }
 .section2 {
-    background-color: #284B63;
-    color: white;
+    background-color: #e7ba87e5;
+    color: black;
     padding: 50px;
 }
 .section3 {
-    background-color: #3C6E71;
+    background-color:/* #5f5f5f*/ #a372be;
     color: white;
     padding: 50px;
     
 }
 .section4 {
-    background-color: #FFFFFF;
+    background-color: rgba(220, 220, 220, 0.644);
     padding: 50px;
 }
 
@@ -65,6 +70,10 @@ h1, section, p, h2, h3, ul {
     border-bottom: 3px white solid;
     border-bottom-style: dotted;
     padding-bottom: 25px;
+ }
+ .container2 {
+    width: 900px;
+    margin: auto;
  }
 
  ul{
@@ -107,7 +116,8 @@ nav ul{
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    display: flex;   
+    display: flex;
+    justify-content: center;
   }
    
   li a {
@@ -116,9 +126,21 @@ nav ul{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.5s;
   }
   
   li a:hover {
     background-color: #111;
+    text-decoration: underline;
+  }
+
+  .banner-image{
+    background-image:url("/images/973967.jpg");
+    height:fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: fill;
   }
   
