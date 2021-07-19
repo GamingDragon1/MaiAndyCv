@@ -27,7 +27,8 @@ header {
     border-radius: 100%;
     border: 6px white solid;
     position: relative;
-    top: 130px;
+    top: 180px;
+    width: 15%;
 }
 
 h1{
@@ -72,7 +73,6 @@ h1, section, p, h2, h3, ul {
     padding-bottom: 25px;
  }
  .container2 {
-    width: 900px;
     margin: auto;
  }
 
